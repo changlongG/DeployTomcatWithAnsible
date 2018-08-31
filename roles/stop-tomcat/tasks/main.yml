@@ -1,0 +1,12 @@
+---
+# Stop Apache Tomcat instance.
+
+
+- name: Stop tomcat.
+  shell: 'pkill -f tomcat'
+
+
+
+  
+
+

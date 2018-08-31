@@ -1,0 +1,10 @@
+---
+# This playbook  Installs and deploys multiple instances of Apache Tomcat 7 Servers on remote hosts.
+
+- hosts: tomcat-servers
+  become: yes
+  become_method: sudo
+
+  roles:
+    - selinux
+    - tomcat
