@@ -1,5 +1,9 @@
 # Project Description
 This project will deploy java-1.8.0-openjdk and apache-tomcat-7.0.90 on a single node of Alibaba Cloud using agentless automation technology Ansible. Ansible using powerful automation language YMAL to excute command on target host or hosts remotely through SSH connection. The ansible scripts for implementation are provided. Those scripts will make the whole deployment process nice and esay.
+There are three main roles involved in this project:
+- `selinux` is responsible for EPEL repository installation;
+- `tomcat` is responsible for installation of java JDK and apache tomcat server as well as the configuration of environment variables;
+- `stop-tomcat` is responsible for shuting down tomcat server.
 
 # Operating System
  - Localhost: ubuntu-18.04.1-amd64
