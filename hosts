@@ -1,5 +1,4 @@
-[web-servers]
-192.168.10.9
+# host of my AlibabaCloud
 
 [tomcat-servers]
-192.168.10.27
+47.91.56.29
